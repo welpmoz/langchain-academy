@@ -1,0 +1,6 @@
+services:
+  devcontainer:
+    image: roswell766/python-devcontainer:3.0
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
